@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<link lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WELCOME</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+    <script src="angular.js"></script>
+    <script src="route.js"></script>
+    <link rel="stylesheet" href="route.css"></link>
+</head>
+<body>
+    <div id="main">
+        <a href="#home">HOME</a> | <a href="#bio">BIO</a> | <a href="#contact">CONTACT</a>
+        <div ng-view></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<div ng-show="show" class="box">
+    <h1>WHAT IS YOUR NAME?</h1>
+    <input type="text" placeholder="Please enter your name" ng-model="name"></input>
+    <button ng-click="submit()" class="button">OK</button>
+</div>
+
+<div ng-hide="hide" class="box">
+    <h1>GOOD {{greeting}} {{name}}</h1>
+    <button ng-click="back()" class="button">GO BACK</button>
+</div>
